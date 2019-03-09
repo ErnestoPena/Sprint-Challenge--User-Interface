@@ -175,8 +175,15 @@ p {
     text-align: justify;  
 }
 
-.text-container {margin-top: 15px; margin-bottom: 15px; padding: 10px;}
+.text-container {margin-top: 15px; margin-bottom: 15px; padding: 10px; animation-name: MoveInLeft; animation-duration: 1.2s;}
 
+@keyframes MoveInLeft {
+    0% {transform: translateX(-90px);}
+    25% {transform: translateX(90px);}
+    50% {transform: translateX(-40px);}
+    75% {transform: translate(40px);}
+	100% {transform: translate(0px);}
+}
 .text_container_about_top {
     width: 95%;
     padding: 0 2%;
