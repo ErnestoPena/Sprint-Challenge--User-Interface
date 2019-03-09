@@ -175,6 +175,13 @@ p {
     text-align: justify;  
 }
 
+.text_container_about_top {
+    width: 95%;
+    padding: 0 2%;
+    padding-bottom: 20px;
+    text-align: justify; 
+}
+
 .middle-content {
     width: 900px;
     margin-left: auto;
