@@ -175,6 +175,8 @@ p {
     text-align: justify;  
 }
 
+.text-container {margin-top: 15px; margin-bottom: 15px; padding: 10px;}
+
 .text_container_about_top {
     width: 95%;
     padding: 0 2%;
@@ -191,6 +193,8 @@ p {
 }
 
 .middle-content h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -259,3 +263,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.more_button {
+	font-family: cursive;
+	margin-top: 15px;
+	width: 210px;
+	height: 35px;
+	font-size: 20px;
+	border: 0.5px solid black;
+	display: inline-block;
+}
+
+.more_button:hover {
+	background-color:rgba(87, 80, 80, 0.555);
+	color: white;
+}
+
+.box_img {margin-top: 5px;}
