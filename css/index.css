@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bolder ;
 }
 
 p {
@@ -135,7 +136,7 @@ p {
 }
 
 .top-content {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -148,15 +149,37 @@ p {
 	margin-top: 130px;
     width: 49;
     margin-bottom: 35px;
+    animation-name: flourishing;
+    animation-duration: 1.8s;
 }
+
+@keyframes flourishing {
+	0% {opacity: 0;}
+	10% {opacity: 0.1;}
+	20% {opacity: 0.2;}
+	30% {opacity: 0.3;}
+	40% {opacity: 0.4;}
+	50% {opacity: 0.5;}
+	60% {opacity: 0.6;}
+	70% {opacity: 0.7;}
+	80% {opacity: 0.8;}
+	80% {opacity: 0.9;}
+	100% {opacity: 1.0;}
+}
+
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 2%;
+    padding-bottom: 20px;
+    text-align: justify;  
 }
 
 .middle-content {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -172,7 +195,8 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10  {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -182,6 +206,18 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.box1 {background: teal;}
+.box2 {background: gold;}
+.box3 {background: cadetblue;}
+.box4 {background: coral;}
+.box5 {background: crimson;}
+.box6 {background: forestgreen;}
+.box7 {background: darkorchid;}
+.box8 {background: hotpink;}
+.box9 {background: indigo;}
+.box10 {background:dodgerblue;}
+
 
 .bottom-content {
     display: flex;
